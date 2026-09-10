@@ -7,6 +7,9 @@ import StateManagement from './components/Hooks'
 import ToggleBtn from './components/ToggleBtn'
 import PasswordToggle from './components/PasswordToggle'
 import Array from './components/Array'
+import FetchingData from './components/FetchingData'
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,6 +33,8 @@ function App() {
 <PasswordToggle />
 <Student /> */}
 < Array />
+
+<FetchingData />
 
     </>
   )
